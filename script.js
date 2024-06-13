@@ -38,3 +38,5 @@ function clearAll(){
     output.value = ''
     field.value = ''
 }
+
+//implement copy feature(clips in clipboard)
