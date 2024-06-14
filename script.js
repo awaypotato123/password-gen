@@ -30,9 +30,7 @@ function genPass()
     output.value = randomSelection2;
 
 }
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("generatebtn").addEventListener("click", genPass);
-});
+
 
 function clearAll(){
     output.value = ''
@@ -40,3 +38,17 @@ function clearAll(){
 }
 
 //implement copy feature(clips in clipboard)
+
+const CopyBtn = document.getElementById("copybtn")
+
+CopyBtn.addEventListener("click",function()
+{
+
+    field.select()
+    document.execCommand("copy")
+    document.getElementById("gfg").textContent = "Copied Text:" +field.value
+
+   
+    
+
+})

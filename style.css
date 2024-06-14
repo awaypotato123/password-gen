@@ -88,3 +88,17 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 10px;
 }
+
+#copybtn{
+    background-color: #10B981;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+#gfg{
+    color: #4ADF86;
+}
