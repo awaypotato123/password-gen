@@ -9,18 +9,18 @@ const characters =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 function genPass()
 {
 
-    const randomLength1 = Math.floor(Math.random()*10) + 1
-    const randomLength2 = Math.floor(Math.random()*10) + 1
+    //const randomLength1 = Math.floor(Math.random()*10) + 1
+    //const randomLength2 = Math.floor(Math.random()*10) + 1
 
     let randomSelection1 = '';
-    for(let i = 0; i<characters.length; i++){
+    for(let i = 0; i<10; i++){
 
         const randomIndex = Math.floor(Math.random() * characters.length);
         randomSelection1 += characters[randomIndex];
     }
 
     let randomSelection2 = '';
-    for(let i = 0; i<characters.length; i++){
+    for(let i = 0; i<10; i++){
 
         const randomIndex = Math.floor(Math.random() * characters.length);
         randomSelection2 += characters[randomIndex];
